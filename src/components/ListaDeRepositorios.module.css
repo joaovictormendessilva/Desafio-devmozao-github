@@ -1,0 +1,37 @@
+.repository{
+    padding-bottom: 0.75rem;
+    border-bottom: solid 1px #ECEFF4;
+    margin-bottom: 0.875rem;
+}
+
+.repository:last-child{
+    border-bottom: none;
+}
+
+.repositoryName{
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+}
+
+.repositoryName a{
+    text-decoration: none;
+    color: #3B4252;
+}
+
+.repositoryDescription{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #3B4252;
+}
+
+.repositoryInfo{
+    color: #8190A5;
+    font-style: italic;
+    margin-top: 0.563rem;
+}
+
+.repositoryInfo span{
+    display: flex;
+    align-items:  center;
+}

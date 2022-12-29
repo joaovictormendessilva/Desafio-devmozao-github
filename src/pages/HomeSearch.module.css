@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title{
+    color: #3B4252;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.searchForm{
+    display: flex;;
+}
+
+.searchField{
+    background-color: #FFFFFF;
+    color: #3B4252;
+    width: 25rem;
+    height: 3.125rem;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 1.125rem;
+    border: solid 1px #3B4252;
+    padding-left: 5.75%;
+    line-height: 3.875rem;
+}
+
+.searchButton{
+    background-color: #47525E;
+    border-radius: 5px;
+    color: #ECEFF4;
+    font-style: italic;
+    font-size: 1.375rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    height: 3.125rem;
+    width: 7.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.searchButton:disabled{
+    background-color: #b3b3b3;
+    cursor: not-allowed;
+}
