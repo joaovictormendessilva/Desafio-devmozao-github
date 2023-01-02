@@ -50,3 +50,9 @@
     background-color: #b3b3b3;
     cursor: not-allowed;
 }
+
+@media(max-width: 400px){
+    .searchField{
+        width: 13rem;
+    }
+}

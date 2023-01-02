@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { ChangeEvent, FormEvent, useState } from 'react';
 
 import styles from './HomeSearch.module.css';
-
+import '../global.css'
 import {MagnifyingGlass} from 'phosphor-react';
 
 export function HomeSearch() {  
