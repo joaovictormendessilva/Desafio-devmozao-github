@@ -27,7 +27,7 @@ export function ListaDeRepositorios({repository}: Repository){
             .map((repository: RepositoryProps) => {
                 return (
                     <div  key={repository.id} className={styles.repository} >
-                        <h2 className={styles.repositoryName} ><a href={repository.html_url}>{repository.name}</a></h2>
+                        <h2 className={styles.repositoryName} ><a target="_blank" href={repository.html_url}>{repository.name}</a></h2>
 
                         <span className={styles.repositoryDescription}>
                             {repository.description}
